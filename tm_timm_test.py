@@ -15,9 +15,7 @@ from timm.data.constants import IMAGENET_DEFAULT_MEAN, IMAGENET_DEFAULT_STD
 from timm.models import load_checkpoint
 from torch.utils.data import DataLoader
 from tqdm import tqdm
-from algo import tome, tofu, pitome, DiffRate, kmtome, evit, medtome
-
-import tlt.lvvit
+from algo import medtome
 
 from config import pretrain_model_config, MedMNIST_DATA_ROOT, f1
 

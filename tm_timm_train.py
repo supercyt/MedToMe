@@ -15,8 +15,7 @@ import transformers
 from medmnist import INFO
 from medmnist.evaluator import getACC, getAUC
 from tqdm import tqdm
-from algo import tome, tofu, pitome, DiffRate, evit, medtome
-import tlt.lvvit
+from algo import medtome
 
 from config import MedMNIST_DATA_ROOT, f1, pretrain_model_config
 

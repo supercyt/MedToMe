@@ -18,8 +18,7 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 
 from config import pretrain_model_config, MedMNIST_DATA_ROOT, f1
-from algo import tome, tofu, pitome, DiffRate, kmtome, evit, medtome
-import tlt.lvvit
+from algo import medtome
 
 device = "cuda:0"
 model_name = sys.argv[1]
